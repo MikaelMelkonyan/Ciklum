@@ -13,8 +13,11 @@
 - on devices iPhone 5s and newer
 - in portrait and landscape mode
 
+>Loading indicator
 ![](loading.png)
+>Error message and ability to retry data
 ![](error.png)
+>Success loaded data
 ![](success_0.png)
 ![](success_1.png)
 ![](success_2.png)
