@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08481F8AC0281BB96003215B /* Pods_Ciklum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7507907AC9D3551DEED3DDD /* Pods_Ciklum.framework */; };
+		663B2779223E51E90077728B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2778223E51E90077728B /* ProfileViewController.swift */; };
+		663B277B223E521D0077728B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663B277A223E521D0077728B /* Profile.storyboard */; };
+		663B277E223E52460077728B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B277D223E52460077728B /* ProfileViewModel.swift */; };
+		663B2783223E52D90077728B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2782223E52D90077728B /* ProfileView.swift */; };
+		663B2786223E53940077728B /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2785223E53940077728B /* Api.swift */; };
+		663B2788223E553F0077728B /* ProfileApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2787223E553F0077728B /* ProfileApi.swift */; };
+		663B278D223E5C7C0077728B /* RequestStaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B278C223E5C7C0077728B /* RequestStaste.swift */; };
+		663B278F223E5CDA0077728B /* ResponseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B278E223E5CDA0077728B /* ResponseState.swift */; };
 		66E95805223E4C7500AB7432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E95804223E4C7500AB7432 /* AppDelegate.swift */; };
-		66E95807223E4C7500AB7432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E95806223E4C7500AB7432 /* ViewController.swift */; };
-		66E9580A223E4C7500AB7432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E95808223E4C7500AB7432 /* Main.storyboard */; };
 		66E9580C223E4C7600AB7432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E9580B223E4C7600AB7432 /* Assets.xcassets */; };
 		66E9580F223E4C7600AB7432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E9580D223E4C7600AB7432 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A7328FA489D548F9566632D /* Pods-Ciklum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ciklum.release.xcconfig"; path = "Target Support Files/Pods-Ciklum/Pods-Ciklum.release.xcconfig"; sourceTree = "<group>"; };
+		663B2778223E51E90077728B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		663B277A223E521D0077728B /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		663B277D223E52460077728B /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		663B2782223E52D90077728B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		663B2785223E53940077728B /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		663B2787223E553F0077728B /* ProfileApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileApi.swift; sourceTree = "<group>"; };
+		663B278C223E5C7C0077728B /* RequestStaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStaste.swift; sourceTree = "<group>"; };
+		663B278E223E5CDA0077728B /* ResponseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseState.swift; sourceTree = "<group>"; };
 		66E95801223E4C7500AB7432 /* Ciklum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ciklum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E95804223E4C7500AB7432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66E95806223E4C7500AB7432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66E95809223E4C7500AB7432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66E9580B223E4C7600AB7432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E9580E223E4C7600AB7432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66E95810223E4C7600AB7432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7507907AC9D3551DEED3DDD /* Pods_Ciklum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ciklum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC9A7143762F9BDEDF5A032 /* Pods-Ciklum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ciklum.debug.xcconfig"; path = "Target Support Files/Pods-Ciklum/Pods-Ciklum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08481F8AC0281BB96003215B /* Pods_Ciklum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +55,96 @@
 		663B2773223E4D2D0077728B /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				663B2789223E5C4A0077728B /* Common */,
+				663B2784223E53840077728B /* Api */,
+				663B2781223E52CA0077728B /* Protocols */,
+				663B277C223E522E0077728B /* View models */,
+				663B2774223E51930077728B /* Controllers */,
+				663B2780223E52650077728B /* Views */,
 			);
 			path = Code;
+			sourceTree = "<group>";
+		};
+		663B2774223E51930077728B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				663B2777223E51B10077728B /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		663B2777223E51B10077728B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				663B2778223E51E90077728B /* ProfileViewController.swift */,
+				663B277A223E521D0077728B /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		663B277C223E522E0077728B /* View models */ = {
+			isa = PBXGroup;
+			children = (
+				663B277D223E52460077728B /* ProfileViewModel.swift */,
+			);
+			path = "View models";
+			sourceTree = "<group>";
+		};
+		663B2780223E52650077728B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		663B2781223E52CA0077728B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				663B2782223E52D90077728B /* ProfileView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		663B2784223E53840077728B /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				663B2785223E53940077728B /* Api.swift */,
+				663B2787223E553F0077728B /* ProfileApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		663B2789223E5C4A0077728B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				663B278A223E5C510077728B /* Domain */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		663B278A223E5C510077728B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				663B278B223E5C660077728B /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		663B278B223E5C660077728B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				663B278C223E5C7C0077728B /* RequestStaste.swift */,
+				663B278E223E5CDA0077728B /* ResponseState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		669E8325838900A1FF12B1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7507907AC9D3551DEED3DDD /* Pods_Ciklum.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		66E957F8223E4C7500AB7432 = {
@@ -47,6 +152,8 @@
 			children = (
 				66E95803223E4C7500AB7432 /* Ciklum */,
 				66E95802223E4C7500AB7432 /* Products */,
+				F09F6E2601B0FA358A716379 /* Pods */,
+				669E8325838900A1FF12B1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,10 +173,17 @@
 				66E95810223E4C7600AB7432 /* Info.plist */,
 				66E9580D223E4C7600AB7432 /* LaunchScreen.storyboard */,
 				663B2773223E4D2D0077728B /* Code */,
-				66E95806223E4C7500AB7432 /* ViewController.swift */,
-				66E95808223E4C7500AB7432 /* Main.storyboard */,
 			);
 			path = Ciklum;
+			sourceTree = "<group>";
+		};
+		F09F6E2601B0FA358A716379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC9A7143762F9BDEDF5A032 /* Pods-Ciklum.debug.xcconfig */,
+				5A7328FA489D548F9566632D /* Pods-Ciklum.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66E95813223E4C7600AB7432 /* Build configuration list for PBXNativeTarget "Ciklum" */;
 			buildPhases = (
+				7EE75B681A56CD30154A017D /* [CP] Check Pods Manifest.lock */,
 				66E957FD223E4C7500AB7432 /* Sources */,
 				66E957FE223E4C7500AB7432 /* Frameworks */,
 				66E957FF223E4C7500AB7432 /* Resources */,
+				C1CFEB019814DBCE9E9F57A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,18 +248,75 @@
 			files = (
 				66E9580F223E4C7600AB7432 /* LaunchScreen.storyboard in Resources */,
 				66E9580C223E4C7600AB7432 /* Assets.xcassets in Resources */,
-				66E9580A223E4C7500AB7432 /* Main.storyboard in Resources */,
+				663B277B223E521D0077728B /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EE75B681A56CD30154A017D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ciklum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CFEB019814DBCE9E9F57A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ciklum/Pods-Ciklum-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ciklum/Pods-Ciklum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66E957FD223E4C7500AB7432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E95807223E4C7500AB7432 /* ViewController.swift in Sources */,
+				663B2788223E553F0077728B /* ProfileApi.swift in Sources */,
+				663B2779223E51E90077728B /* ProfileViewController.swift in Sources */,
+				663B2783223E52D90077728B /* ProfileView.swift in Sources */,
+				663B277E223E52460077728B /* ProfileViewModel.swift in Sources */,
+				663B278D223E5C7C0077728B /* RequestStaste.swift in Sources */,
+				663B2786223E53940077728B /* Api.swift in Sources */,
+				663B278F223E5CDA0077728B /* ResponseState.swift in Sources */,
 				66E95805223E4C7500AB7432 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +324,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66E95808223E4C7500AB7432 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66E95809223E4C7500AB7432 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66E9580D223E4C7600AB7432 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +453,7 @@
 		};
 		66E95814223E4C7600AB7432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC9A7143762F9BDEDF5A032 /* Pods-Ciklum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,12 +466,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mikael.Melkonyan.Ciklum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		66E95815223E4C7600AB7432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7328FA489D548F9566632D /* Pods-Ciklum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mikael.Melkonyan.Ciklum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
