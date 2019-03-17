@@ -16,6 +16,16 @@
 		663B2788223E553F0077728B /* ProfileApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2787223E553F0077728B /* ProfileApi.swift */; };
 		663B278D223E5C7C0077728B /* RequestStaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B278C223E5C7C0077728B /* RequestStaste.swift */; };
 		663B278F223E5CDA0077728B /* ResponseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B278E223E5CDA0077728B /* ResponseState.swift */; };
+		663B2791223E66330077728B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2790223E66330077728B /* User.swift */; };
+		663B2793223E66580077728B /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2792223E66580077728B /* Thread.swift */; };
+		663B2795223E66A40077728B /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2794223E66A40077728B /* Name.swift */; };
+		663B2797223E67970077728B /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2796223E67970077728B /* Picture.swift */; };
+		663B2799223E6E0B0077728B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B2798223E6E0B0077728B /* Date.swift */; };
+		663B279C223E72140077728B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B279B223E72140077728B /* Location.swift */; };
+		663B279E223E74920077728B /* Alamofire + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B279D223E74920077728B /* Alamofire + Extension.swift */; };
+		663B27A4223E81590077728B /* UserDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B27A2223E81590077728B /* UserDataCell.swift */; };
+		663B27A5223E81590077728B /* UserDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663B27A3223E81590077728B /* UserDataCell.xib */; };
+		663B27A7223EBEFC0077728B /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B27A6223EBEFC0077728B /* Collection.swift */; };
 		66E95805223E4C7500AB7432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E95804223E4C7500AB7432 /* AppDelegate.swift */; };
 		66E9580C223E4C7600AB7432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E9580B223E4C7600AB7432 /* Assets.xcassets */; };
 		66E9580F223E4C7600AB7432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E9580D223E4C7600AB7432 /* LaunchScreen.storyboard */; };
@@ -31,6 +41,16 @@
 		663B2787223E553F0077728B /* ProfileApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileApi.swift; sourceTree = "<group>"; };
 		663B278C223E5C7C0077728B /* RequestStaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStaste.swift; sourceTree = "<group>"; };
 		663B278E223E5CDA0077728B /* ResponseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseState.swift; sourceTree = "<group>"; };
+		663B2790223E66330077728B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		663B2792223E66580077728B /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		663B2794223E66A40077728B /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		663B2796223E67970077728B /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		663B2798223E6E0B0077728B /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		663B279B223E72140077728B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		663B279D223E74920077728B /* Alamofire + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire + Extension.swift"; sourceTree = "<group>"; };
+		663B27A2223E81590077728B /* UserDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataCell.swift; sourceTree = "<group>"; };
+		663B27A3223E81590077728B /* UserDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDataCell.xib; sourceTree = "<group>"; };
+		663B27A6223EBEFC0077728B /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		66E95801223E4C7500AB7432 /* Ciklum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ciklum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E95804223E4C7500AB7432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E9580B223E4C7600AB7432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				663B2789223E5C4A0077728B /* Common */,
+				663B278A223E5C510077728B /* Domain */,
 				663B2784223E53840077728B /* Api */,
 				663B2781223E52CA0077728B /* Protocols */,
 				663B277C223E522E0077728B /* View models */,
@@ -93,6 +114,7 @@
 		663B2780223E52650077728B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				663B27A0223E811C0077728B /* UITableViewCells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +132,7 @@
 			children = (
 				663B2785223E53940077728B /* Api.swift */,
 				663B2787223E553F0077728B /* ProfileApi.swift */,
+				663B279D223E74920077728B /* Alamofire + Extension.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -117,7 +140,8 @@
 		663B2789223E5C4A0077728B /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				663B278A223E5C510077728B /* Domain */,
+				663B2792223E66580077728B /* Thread.swift */,
+				663B279A223E6E0E0077728B /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -135,8 +159,38 @@
 			children = (
 				663B278C223E5C7C0077728B /* RequestStaste.swift */,
 				663B278E223E5CDA0077728B /* ResponseState.swift */,
+				663B2790223E66330077728B /* User.swift */,
+				663B2794223E66A40077728B /* Name.swift */,
+				663B2796223E67970077728B /* Picture.swift */,
+				663B279B223E72140077728B /* Location.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		663B279A223E6E0E0077728B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				663B2798223E6E0B0077728B /* Date.swift */,
+				663B27A6223EBEFC0077728B /* Collection.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		663B27A0223E811C0077728B /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				663B27A1223E813D0077728B /* User data */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		663B27A1223E813D0077728B /* User data */ = {
+			isa = PBXGroup;
+			children = (
+				663B27A2223E81590077728B /* UserDataCell.swift */,
+				663B27A3223E81590077728B /* UserDataCell.xib */,
+			);
+			path = "User data";
 			sourceTree = "<group>";
 		};
 		669E8325838900A1FF12B1CE /* Frameworks */ = {
@@ -248,6 +302,7 @@
 			files = (
 				66E9580F223E4C7600AB7432 /* LaunchScreen.storyboard in Resources */,
 				66E9580C223E4C7600AB7432 /* Assets.xcassets in Resources */,
+				663B27A5223E81590077728B /* UserDataCell.xib in Resources */,
 				663B277B223E521D0077728B /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,13 +365,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663B2797223E67970077728B /* Picture.swift in Sources */,
+				663B2795223E66A40077728B /* Name.swift in Sources */,
+				663B27A7223EBEFC0077728B /* Collection.swift in Sources */,
 				663B2788223E553F0077728B /* ProfileApi.swift in Sources */,
+				663B2793223E66580077728B /* Thread.swift in Sources */,
 				663B2779223E51E90077728B /* ProfileViewController.swift in Sources */,
 				663B2783223E52D90077728B /* ProfileView.swift in Sources */,
+				663B27A4223E81590077728B /* UserDataCell.swift in Sources */,
+				663B279C223E72140077728B /* Location.swift in Sources */,
+				663B279E223E74920077728B /* Alamofire + Extension.swift in Sources */,
 				663B277E223E52460077728B /* ProfileViewModel.swift in Sources */,
 				663B278D223E5C7C0077728B /* RequestStaste.swift in Sources */,
+				663B2791223E66330077728B /* User.swift in Sources */,
 				663B2786223E53940077728B /* Api.swift in Sources */,
 				663B278F223E5CDA0077728B /* ResponseState.swift in Sources */,
+				663B2799223E6E0B0077728B /* Date.swift in Sources */,
 				66E95805223E4C7500AB7432 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
